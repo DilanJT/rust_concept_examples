@@ -1,0 +1,43 @@
+[package]
+name = "basics"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "memsize"
+path = "src/mem_size.rs"
+
+[[bin]]
+name = "traits"
+path = "src/traits.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "dropbomb"
+path = "src/dropbomb.rs"
+
+[[bin]]
+name = "macro"
+path = "src/macro.rs"
+
+[[bin]]
+name = "factorial"
+path = "src/factorial.rs"
+
+[[bin]]
+name = "index"
+path = "src/index.rs"
+
+[workspace]
+members = [
+  "helpers/ticket_fields",
+  "helpers/common",
+]
+
+[dependencies]
+thiserror = "2.0.12"
+common = { path = "helpers/common" }
+ticket_fields = {path = "helpers/ticket_fields"}
