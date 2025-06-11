@@ -31,6 +31,10 @@ path = "src/factorial.rs"
 name = "index"
 path = "src/index.rs"
 
+[[bin]]
+name = "thread"
+path = "src/thread.rs"
+
 [workspace]
 members = [
   "helpers/ticket_fields",
