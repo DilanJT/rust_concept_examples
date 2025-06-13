@@ -35,6 +35,10 @@ path = "src/index.rs"
 name = "thread"
 path = "src/thread.rs"
 
+[[bin]]
+name = "locking_benchmarks"
+path = "src/locking_benchmarks.rs"
+
 [workspace]
 members = [
   "helpers/ticket_fields",
