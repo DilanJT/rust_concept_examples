@@ -39,6 +39,14 @@ path = "src/thread.rs"
 name = "locking_benchmarks"
 path = "src/locking_benchmarks.rs"
 
+[[bin]]
+name = "spawn_blocking"
+path = "src/spawn_blocking.rs"
+
+[[bin]]
+name = "async_aware"
+path = "src/async_aware.rs"
+
 [workspace]
 members = [
   "helpers/ticket_fields",
@@ -49,3 +57,5 @@ members = [
 thiserror = "2.0.12"
 common = { path = "helpers/common" }
 ticket_fields = {path = "helpers/ticket_fields"}
+anyhow = "1.0.83"
+tokio = { version = "1", features = ["full"] }
