@@ -63,6 +63,14 @@ path = "src/unwrap.rs"
 name = "result"
 path = "src/result.rs"
 
+[[bin]]
+name = "panic"
+path = "src/panic.rs"
+
+[[bin]]
+name = "two_sum"
+path = "src/two_sum.rs"
+
 [workspace]
 members = [
   "helpers/ticket_fields",
