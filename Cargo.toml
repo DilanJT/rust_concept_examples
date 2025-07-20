@@ -47,6 +47,22 @@ path = "src/spawn_blocking.rs"
 name = "async_aware"
 path = "src/async_aware.rs"
 
+[[bin]]
+name = "service_trait"
+path = "src/service_trait.rs"
+
+[[bin]]
+name = "references"
+path = "src/references.rs"
+
+[[bin]]
+name = "unwrap"
+path = "src/unwrap.rs"
+
+[[bin]]
+name = "result"
+path = "src/result.rs"
+
 [workspace]
 members = [
   "helpers/ticket_fields",
